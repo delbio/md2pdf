@@ -4,7 +4,7 @@ Script to print a pdf copy of a markdown file with vim highligh syntax
 
 # Installation
 
-Using [basher](https://github.com/delbio/md2pdf):
+Using [basher](https://github.com/basherpm/basher):
 
     $ basher install delbio/md2pdf
 
