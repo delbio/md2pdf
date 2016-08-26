@@ -1,10 +1,16 @@
-# scrive un file emaple.md.pdf nella stessa cartella
+# md2pdf
 
-```bash
-sh md2pdf.sh example.md
-```
-# scrive un file di output: output.pdf, è possibile usare qualsiasi path
+Script to print a pdf copy of a markdown file with vim highligh syntax
 
-```bash
-sh md2pdf.sh example.md output.pdf 
-```
+# Installation
+
+Using [basher](https://github.com/delbio/md2pdf):
+
+    $ basher install delbio/md2pdf
+
+Or clone the repository and add the `bin` folder to your path.
+
+# Commands
+
+- `md2pdf file-path.md`: write pdf version of file in the same dir of input file
+- `md2pdf file-path.md <target-dest-file.pdf>`: write pdf version in specified path
